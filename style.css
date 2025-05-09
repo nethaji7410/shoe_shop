@@ -1,0 +1,61 @@
+.nav-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.image-bg {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.image-left {
+  background-image: url(assets.img/1shoe.png); /* Replace with the left image */
+}
+
+.image-right {
+  background-image: url(assets.img/1pant.png); /* Replace with the right image */
+}
+
+.content {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+.logo{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo .card{
+  border: none;
+  text-align: center;
+}
+body{
+  overflow-x: hidden;
+}
+.table tbody tr td{
+  background-color:black ;
+}
+footer{
+  overflow-x: hidden;
+}
