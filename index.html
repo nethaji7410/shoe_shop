@@ -1,504 +1,394 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>EXAMPLE</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <head>
+        <title>SPRYSTRORE</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <style>
-      .nav-overlay{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 10;
-      }
-      .image-bd{
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        padding-right: 0;
-        padding-left: 0;
-      }
-      .text{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform:translate(-50%,-50%);
-        color: white;
-        text-align: center;
-      }
-      .image-left{
-        background-image: url("assets/1shoe.png");
-      }
-      .image-right{
-        background-image: url("assets/1pant.png");
-      }
-      .brand-text{
-        text-align: center;
-      }
-      .text-button1{
-        font-size: 30px;
-        padding: 10px 25px;
-        margin-top:20px;
-        border-radius: 50%;
-        text-align: center;
-      }
-      .text-button2{
-        font-size: 30px;
-        padding: 10px 25px;
-        margin-top:20px;
-        margin-right: 20px;
-        border-radius: 50%;
-        text-align: center;
-      }
-      .brand-logo{
-        align-items: center;
-        justify-content: space-around;
-      }
-      .brand-card{
-         border: none;
-         text-align: center;
-      }
-   
-      .shoe-logo{
-        background-color: rgb(213, 213, 213) !important;
-        width: 100%;
-        height: 740px;
-        align-content: center;
-        padding: 0;
-      }
-      .card-body{
-        padding: 0px;
-      }
-      .shop-btn{
-        border-radius: 20px;
-        background-color: gray;
-        display: flex;
-      
-        
-      }
-      .frame1-content{
-        align-content: center;
-        text-align: start;
-      }
-      .wbrand-logo{
-        width: 100%;
-        height: 700px;
-        background-color: white !important;
-      }
-     
-     
-      
-      .container-fluid{
-        padding: 0;
-      }
-
-      .overlay{
-        background-color: rgba(0,0,0,0.5);
-        height:100vh
-      }
-      .offcanvas.show, .offcanvas.showing {
-        /* offcanvas blur background*/
-    visibility: visible;
-    backdrop-filter: blur(15px);
-    background: rgba(255, 255, 255, 0.2);
-}
-    .footer-img{
-     /* background-image: url('assets/footer.png');*/
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 640px;
-
-      
-    }
-    </style>
-  </head>
-
-  <body style="overflow-x: hidden;">
-    <header>
-      <!-- place navbar here -->
-    <div class="container-fluid">
-       <nav class="nav-overlay">
-        <div class="row ">
-          <div class="col-md-12 my-3 pe-3 d-flex " style="justify-content: space-between;">
-            <p class="ms-3 text-white" style="width: 500px;">UPTO 30% OFF ON ALL STYLES<a class="text-white" href="#"><b class="ps-1">,Click here for more</b></a><span style="color: orangered;"><b class="ps-1">More Details</b></span></p>
-          <div class="text-white d-flex justify-content-end m-0 " style="width: 500px; gap: 25px;">
-            <a href="#"><img src="assets/person icon.png" width="40px" style="border-radius: 20px;backdrop-filter: blur(15px); background: rgba(255,255,255,0.2);" height="35px" class=" "></a> 
-            <a href="#" class="text-decoration-none text-white"><p class="pt-1 ps-3 pe-2" style="border-radius: 20px;backdrop-filter: blur(15px); background: rgba(255,255,255,0.2);height: 40px;">My Cart<img src="assets/carticon.png" width="30px" height="30px" class=""></p></a>
-          </div>
-        </div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-dark " >
-                <div class="container-fluid">
-                  <a class="navbar-brand text-white ps-4" href="#"><b>SPRAY<span style="color: orangered;">S</span>TORE</b></a>
-                  <a href="#" class="text-decoration-none ps-5"><img src="assets/search icon.png" class="" height="30" width="30"><b class="text-white ps-3 ">Search here</b></a>
-                  <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
-                    <div class="offcanvas-header" style="backdrop-filter: blur(15px); background: rgba(255,255,255,0.2)">
-                      <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel"><b>SPRAY<span style="color: orangered;">S</span>TORE</b></h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <!-- place navbar here -->
+             <div class="container-fluid"> 
+                <nav class="nav-overlay">
+                    <div class="row navbar-1">
+                        <p class="text-white p-2 px-4">upto 30% OFF ON ALL STYLES, <a >click here for more</a><span class="" style="color:orangered;">More Details</span></p>
                     </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="font-weight: bold; font-size: 20px; font-style: italic;">
-                        <li class="nav-item px-5">
-                          <a class="nav-link text-white " href="#">Home</a>
-                        </li>
-                        <li class="nav-item px-5">
-                          <a class="nav-link text-white" href="#">About</a>
-                        </li>
-                        <li class="nav-item px-5">
-                          <a class="nav-link text-white" href="#">Products</a>
-                        </li>
-                        <li class="nav-item px-5">
-                          <a class="nav-link text-white" href="#">Contact</a>
-                        </li>
-                      </ul>
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h4 class="text-white ps-2">SPRY<span class="" style="color:orangered;">S</span>TORE</h4>
+                        </div>
+                        <div class="col">
+                            <p class="text-white fw-bold"><img class="px-2" src="assets/search icon.png" alt="">search here</p>
+                        </div>
+                        <div class="col-md-8 col-sm-12 fw-bold">
+                            <ul class="list-inline text-white d-flex pe-4" style="justify-content:space-around;">
+                                <li class="list-inline-item"><a class="nav-link" href="#">Home</a></li>
+                                <li class="list-inline-item"><a class="nav-link" href="#">About</a></li>
+                                <li class="list-inline-item"><a class="nav-link" href="#">Products</a></li>
+                                <li class="list-inline-item"><a class="nav-link" href="#">Contacts</a></li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
+                </nav>
+             </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 image-bg image-left">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1 class="text-white">BRAND SHOES FOR WOMEN</h1>
+                            <h3 class="text-white">20% DISCOUNT</h3>
+                            <a href="#" ><button type="button" class="btn text-dark"><img src="assets/button1.png" alt=""></button></a>
+                        </div>
+                    </div>
                 </div>
-              </nav> 
-       </nav>
-      </div> 
-    </header>
-  <div class="container-fluid ">
-    <div class="row top-row">
-      <div class="col-md-8 image-bd image-left">
-        <div class="overlay">
-          <div class="text">
-            <h1>BRAND SHOES FOR</h1>
-            <h1 >MEN</h1>
-            <h1>20% DISCOUNT</h1>
-            <a href="#" class="btn btn-light text-button1 ">&gt;</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 image-bd image-right">
-        <div class="overlay">
-          <div class="text">
-            <h2>MENS WORLD</h2>
-            <a href="#" class="btn btn-light text-button2">&gt;</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div><br><br><br><br>
-  <div class="container">
-    <div class="row-md-12 brand-text">
-       <h1>shop <span style="color: orangered;">w</span>ith us</h1>
-       <h4>Lorem for some text for the brand</h4>
-    </div><br><br><br>
-    <div class="row">
-      <div class="col-lg-12  col-sm-12 brand-logo d-flex ">
-        <div class="card brand-card px-2">
-            <img src="assets/Ellipse 1.png">
-          <div class="card-body text-fluid">
-           <h5> Brand Name</h5>
-          </div>
-        </div>
-        <div class="card brand-card px-2">
-            <img src="assets/Ellipse 2.png">
-          <div class="card-body text-fluid">
-            <h5>Brand Name</h5>
-          </div>
-        </div>
-        <div class="card brand-card px-2">
-             <img src="assets/Ellipse 3.png">
-             <div class="card-body text-fluid">
-              <h5>Brand Name</h5>
-          </div>
-        </div>
-        <div class="card brand-card px-2">
-             <img src="assets/Ellipse 4.png">
-             <div class="card-body text-fluid">
-             <h5>Brand Name</h5>
-            </div>
-        </div>
-        <div class="card brand-card px-2">
-             <img src="assets/Ellipse 5.png">
-             <div class="card-body text-fluid">
-             <h5>Brand Name</h5>
-            </div>
-        </div>
-      </div>   
-    </div>
-  </div><br><br><br>
-  <div class="container-fluid" style="background-color: rgb(236, 236, 236);">
-    <div class="row">
-      <div class="col-md-6 text-center" style="align-content: center;">
-        <h2 class="text-start pt-4" style="padding-left: 70px ;">ALL BRANDED MEN'S SUITS ARE FLAT</h2>
-         <h2 class=" text-start" style="padding-left: 70px; color: orangered;">30% DISCOUNT</h2><br><br>
-         <b class="text-secondary text-start"><h4 style="padding-left: 70px;">Visit our shop  to see amazing creations from our designers.</h4></b><br><br><br>
-         <div class="d-flex justify-content-start">
-          <div class="btn shop-btn text-white btn-secondary" style="margin-left:70px ;">shop now</div>
-      </div>
-    </div>
-      <div class="col-md-6">
-        <img
-          src="ass"
-          class="img-fluid  rounded-top pe-4 ps-4 py-5"
-          alt=""
-        />
-      </div>
-    </div>
-  </div><br><br><br>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-8  d-flex justify-content-center">
-        <img
-          src="assets/Frame 2.png"
-          class="img-fluid rounded-top ps-5 py-5 px-5"
-          alt=""
-        />
-        
-      </div>
-      <div class="col-md-4  text-fluid" style="align-content: center; ">
-         <div class="cls">
-          <h2 class="ps-2">ALL BRANDED WOMEN'S</h2>
-          <h2 class="ps-2">BAGS ARE</h2>
-          <h2 class="ps-2">FLAT <span style="color: orangered;">30%</span></h2>
-          <h2 class=" ps-2" style="color: orangered;">DISCOUNT</h2><br>
-          <h2 class="text-secondary ps-2">Visit our shop  to see amazing creations.</h2><br>
-          <div class="btn ms-2 text-white btn-secondary" style="border-radius: 20px;background-color: gray;">shop now</div>
-         </div>
-      </div>
-    </div>
-  </div><br><br><br>
-  <div class="container-fluid">
-    <div class="row-md-12 brand-text">
-       <h1>shop <span style="color: orangered;">w</span>ith us</h1>
-       <h4>Lorem for some text for the brand</h4>
-    </div><br><br><br>
-    <div class="row">
-      <div class="col-lg-12  col-sm-12 brand-logo d-flex ">
-        <div class="card brand-card px-2">
-            <img src="assets/Rectangle 1.png">
-          <div class="card-body text-fluid">
-           <h5> Brand Name</h5>
-           <p><span class="text-decoration-line-through">$123</span>$100</p>
-          </div>
-        </div>
-        <div class="card brand-card px-2">
-            <img src="assets/Rectangle 2.png">
-          <div class="card-body text-fluid">
-            <h5>Brand Name</h5>
-            <p><span class="text-decoration-line-through">$123</span>$100</p>
-          </div>
-        </div>
-        <div class="card brand-card px-2">
-             <img src="assets/Rectangle 3.png">
-             <div class="card-body text-fluid">
-              <h5>Brand Name</h5>
-              <p><span class="text-decoration-line-through">$123</span>$100</p>
-          </div>
-        </div>
-        <div class="card brand-card px-2">
-             <img src="assets/Rectangle 4.png">
-             <div class="card-body text-fluid">
-             <h5>Brand Name</h5>
-             <p><span class="text-decoration-line-through">$123</span>$100</p>
-            </div>
-        </div>
-      </div>   
-    </div><br><br>
-  <div class="row">
-    <div class="col-lg-12  col-sm-12 brand-logo d-flex ">
-      <div class="card brand-card px-2">
-          <img src="assets/Rectangle 5.png">
-        <div class="card-body text-fluid">
-         <h5> Brand Name</h5>
-         <p><span class="text-decoration-line-through">$123</span>$100</p>
-        </div>
-      </div>
-      <div class="card brand-card px-2">
-          <img src="assets/Rectangle 6.png">
-        <div class="card-body text-fluid">
-          <h5>Brand Name</h5>
-          <p><span class="text-decoration-line-through">$123</span>$100</p>
-        </div>
-      </div>
-      <div class="card brand-card px-2">
-           <img src="assets/Rectangle 7.png">
-           <div class="card-body text-fluid">
-            <h5>Brand Name</h5>
-            <p><span class="text-decoration-line-through">$123</span>$100</p>
-        </div>
-      </div>
-      <div class="card brand-card px-2">
-           <img src="assets/Rectangle 8.png">
-           <div class="card-body text-fluid">
-           <h5>Brand Name</h5>
-           <p><span class="text-decoration-line-through">$123</span>$100</p>
-          </div>
-      </div>
-    </div>   
-  </div>
-  </div><br><br><br>
-  <div class="container-fluid footer-img" style="position: relative;">
-    <img
-        src="assets/footer.png"
-        class="img-fluid"
-        alt=""
-        style="width: 100%; height: 640px; filter: brightness(0.4);"
-    />
-    <div class="container-fluid text-white text-overlay text-fluid" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <h3>TONS OF PRODUCTS & OPTIONS TO</h3>
-            <h6 style="color: orangered;">30% DISCOUNT</h6>
-            <p style="max-width: 80%; margin: 0 auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolore harum ipsam possimus adipisci sint ad corrupti error aliquam veritatis fugit, maxime nam rerum ut, neque aperiam perferendis quae dicta similique eaque fuga omnis! Hic eos nihil necessitatibus sapiente placeat.</p>
-            <div class="btn bg-secondary text-white fw-bold" style="border-radius: 25px; margin-top: 10px;">Shop Now</div>
-          </div>
-        </div>
-       
-    </div>
-</div><br>
-    <main></main>
-    <footer style="background-color: black;">
-      <!-- place footer here -->
-       <div class="container-fluid text-white" style="background-color: black;">
-         <div class="row" style="padding: 0;">
-          <div class="col">
-            <p style="font-size: 25px; padding-left: 40px;" class="text-fluid pt-5"><b>SPRAY<span style="color: orangered;">S</span>TORE</b></p>
-             <div class="row">
-              <div class="col-md-8 col-sm-12 text-fluid p-5" style="">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate repudiandae fuga quae accusamus! Doloremque exercitationem ab distinctio quas nem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, aliquam.</div>
-             </div>
-             <div class="row">
-              <img
-              src="assets/2.png"
-              class="img-fluid rounded-top pt-2 " style="width: 250px; padding-left: 50px;"
-              alt=""
-              />
-             </div>
-          </div>
-          <div class="col-md-6 col-sm-12 ms-2">
-            <h3 class="pt-5">Women's Day Special Offer All Branded Sandals are Flat 50% Discount</h3>
-              <div class="row mt-4">
-                    <div class="col-md-6">
-                      <table class="table table-borderless" style="border: none; ">
-                        <thead>
-                          <tr>
-                            <th scope="col" style="background-color: black; color: white; padding: 0px;">USEFUL LINKS</th>
-                          </tr>
-                        </thead>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">Home</td>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">careers</td>
-                          </tr>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">About</td>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">privacy policy</td>
-                          </tr>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">blog</td>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">terms and conditions</td>
-                          </tr>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">contact</td>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">support</td>
-                      </table>
+                <div class="col-md-4 image-bg image-right">
+                    <div class="overlay">
+                        <div class="content">
+                            <h1 class="text-white">MENS WORLD</h1>
+                            <a href="#" ><button type="button" class="btn text-dark"><img src="assets/button1.png" alt=""></button></a>
+                        </div>
                     </div>
-                    <div class="col">
-                      <table class="table table-borderless" style="border: none;">
-                        <thead>
-                          <tr>
-                            <th scope="col" style="background-color: black; color: white; padding: 0px;">OUR STORE</th>
-                          </tr>
-                        </thead>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">494949 broaddus</td>
-                          </tr>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">court avenue,</td>
-                          </tr>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">madisonville ky 95020</td>
-                          </tr>
-                          <tr>
-                             <td style="background-color: black; padding: 0px;" class="text-secondary fw-bold">United States Of America</td>
-                      </table>
-                      <h6 class="ps-2">WE ACCEPT:</h6>
-                      <img
-                      src="assets/1.png"
-                      class="img-fluid rounded-top pt-2 " style="width: 200px; height: 50px;"
-                      alt=""
-                      />
-                    </div>
-              </div> 
-          </div>
-         </div><br><br>
-         <div class="hr d-flex" style="justify-content: center;">
-         <hr style="width: 80%; border: 2px solid white;">
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col d-flex mx-5" style="justify-content: space-between;">
-            <a href="#" class="ps-4" style="text-decoration: underline; color: white;">privacy policy term of Service Coustomer Care</a>
-            <p class="pe-4">@2020 SprayStore. All rights reserved. Design by W3Layouts</p>
-          </div>
-        </div>
-       </div><br><br><br><br> 
-       
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
-
-<header>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <main>
             <div class="container-fluid">
-                <p class="text-white p-2 px-4">upto 30% OFF ON ALL STYLES, <a href="#" class="text-white">click here for more</a><span class="" style="color:orangered;"> More Details</span></p>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <h4 class="navbar-brand">SPRY<span style="color:orangered;">S</span>TORE</h4>
-                    <div class="ms-auto">
-                        <p class="text-white fw-bold"><img class="px-2" src="assets/search icon.png" alt="">search here</p>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 mt-5">
+                        <br>
+                        <h4 class="text-center">shop <span style="color:orangered;"> w</span>ith us</h4>
+                        <br>
+                        <p class="text-center">lorem for some text for the brand</p>
+                        <br>
                     </div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
-                        </li>
-                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 logo d-flex ">
+                        <div class="card brand-card px-2">
+                            <img src="assets/Ellipse 1.png">
+                            <div class="card-body text-fluid">
+                                <h5 class="">Brand Name</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/Ellipse 2.png">
+                            <div class="card-body text-fluid">
+                                <h5 class="">Brand Name</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/Ellipse 3.png">
+                            <div class="card-body text-fluid">
+                                <h5 class="">Brand Name</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/Ellipse 4.png">
+                            <div class="card-body text-fluid">
+                                <h5 class="">Brand Name</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="assets/Ellipse 5.png">
+                            <div class="card-body text-fluid">
+                                <h5 class="">Brand Name</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </div>
-</header>
+            <br><br><br>
+            <div class="container-fluid" style="background-color:rgb(249, 254, 255);"> 
+                <div class="row">
+                    <div class="col-md-7" style="align-content: center;">
+                        <div class="offers p-5">
+                            <h3 class="fw-bold">ALL BRANDED MEN'S SUITS ARE FLAT</h3>
+                            <h5 class="fw-bold" style="color:orangered;">30% DISCOUNT</h5>
+                            <br>
+                            <P class="fw-bold link-secondary">Visit our shop to see amazing creations from our designers</P> 
+                            <br><br>
+                            <a href="#"><button type="button" class="btn text-dark text-white bg-secondary rounded-pill"> shop now </button></a> 
+                        </div>  
+                </div>
+                <div class="col-md-5  text-center">
+
+                    <img
+                        src="assets/shoe img.png"
+                        class="img-fluid rounded-right my-5 pe-5"
+                        alt=""
+                    />
+                    
+                </div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <img
+                            src="assets/shoe img3.jpeg"
+                            class="img-fluid rounded-top"
+                            alt=""
+                        />
+                        
+                    </div>
+                    <div class="col-md-4" style="align-content:center">
+                        <div class="p-3">
+                            <h2>ALL BRANDED WOMEN'S BAGS<BR>BAGS ARE<br>FLAT <span style="color:orangered;">30%</span></h2>
+                                <h2 style="color:orangered;">DISCOUNT</h2>
+                                <P class="fw-bold link-secondary">Visit our shop to see amazing <br>creations</P><br><br>
+                                <a href="#"><button type="button" class="btn text-dark text-white bg-secondary rounded-pill"> shop now </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <h4 class="text-center">shop <span class="" style="color: orangered;"> w</span>ith us</h4>
+                        <br>
+                        <p class="text-center">lorem for some text for the brand</p>
+                        <br>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img1.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img2.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img3.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img4.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img5.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img6.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img7.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-12 text-center text-fluid">
+                            <img
+                                src="assets/frame img8.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                            <h5>Brand Name</h5>
+                            <p><span class="text-decoration-line-through text-danger">123</span> $100</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            <div class="container-fluid footer-img position-relative px-0">
+                <div class="row">
+                    <div class="col-md-12 last-page px-0">
+                        <img
+                            src="assets/footer.png"
+                            class="img-fluid"
+                            alt=""
+                            style="width: 100%; height: 640px; filter: brightness(0.4);"
+                        />
+                        <div class="container-fluid text-white text-overlay text-fluid" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                            <div class="row">
+                              <div class="col-md-12 col-sm-12">
+                                <h3>TONS OF PRODUCTS & OPTIONS TO</h3>
+                                <h6 style="color: orangered;">30% DISCOUNT</h6>
+                                <p style="max-width: 80%; margin: 0 auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolore harum ipsam possimus adipisci sint ad corrupti error aliquam veritatis fugit, maxime nam rerum ut, neque aperiam perferendis quae dicta similique eaque fuga omnis! Hic eos nihil necessitatibus sapiente placeat.</p>
+                                <div class="btn bg-secondary text-white fw-bold" style="border-radius: 25px; margin-top: 10px;">Shop Now</div>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </main>
+        <footer>
+            <!-- place footer here -->
+             <div class="container-fluid bg-black text-white">
+                <div class="row bg-black text-white">
+                    <div class="col-md-6"><br><br>
+                        <h4 class="text-white ps-2">SPRY<span class="" style="color:orangered;">S</span>TORE</h4>
+                        <br>
+                        <p class="text-white ps-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Dignissimos at quos earum voluptates distinctio <br>enim fugiat dolore libero dolores officiis.</p>
+                        <br><br><br><br>
+                        <img
+                            src="assets/footer.logo img2.jpg"
+                            class="img-fluid ps-4 bg-black"
+                            alt=""
+                        />
+                        
+                    </div>
+                    <div class="col-md-6"><br><br>
+                        <h2 class="text-white ps-2">Wome's Day Special Offer All Branded<br>Sandails are Flat 50% Discount</h2>
+                        <br><br>
+                        <div class="row">
+                            <div class="col">
+                                <table class="table1 ">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col" class="text-white bg-black">USEFUL  LINKS</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="text-secondary">Home</td>
+                                        <td class="text-secondary">Careers</td>
+                                      </tr>
+                                      <tr>
+                                        
+                                        <td class="text-secondary">About</td>
+                                        <td class="text-secondary">Privacy Policy</td>
+                                        
+                                      </tr>
+                                      <tr>
+                                    
+                                        <td class="text-secondary">Blog</td>
+                                        <td class="text-secondary">Terms and Conditions</td>
+                                      </tr>
+                                      <tr>
+                                    
+                                        <td class="text-secondary">Contact</td>
+                                        <td class="text-secondary">Support</td>
+                                      </tr>
+
+                                  </table>
+                            </div>
+                            <div class="col">
+                                <table class="table1">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="text-white bg-black">OUR STORE</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-secondary">49436 Broaddus Honey</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-secondary">Court Avenue,</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-secondary">Madisonville KY 95020</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-secondary">United States of America</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><BR>
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="text-white">WE ACCEPT</h4>
+                            </div>
+                        </div><br><br>
+                        <div class="row">
+                            <div class="col">
+                                <img
+                                    src="assets/foo.logo img.jpg"
+                                    class="img-fluid px-1 "
+                                    alt=""
+                                />
+                                
+                            </div>
+                        </div>
+                    </div><br><br><br>
+                    <div class=" hr d-flex  justify-content-center">
+                        <hr style="width: 80%; border: 2px solid white;">
+                     </div>
+                     
+                </div>
+                <div class="row">
+                    <div class="col d-flex " style="justify-content: space-between;">
+                      <a href="#" class="ps-2" style="color: white;">Privacy Policy Term of Service Customer Care</a>
+                      <p class="pe-2" style="color: white;">@2020 SprayStore. All rights reserved. Design by W3Layouts</p>
+                </div>
+                 </div><br><br><br><br>
+             </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

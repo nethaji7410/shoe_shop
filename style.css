@@ -25,11 +25,11 @@
 }
 
 .image-left {
-  background-image: url(assets.img/1shoe.png); /* Replace with the left image */
+  background-image: url(assets/1shoe.png); /* Replace with the left image */
 }
 
 .image-right {
-  background-image: url(assets.img/1pant.png); /* Replace with the right image */
+  background-image: url(assets/1pant.png); /* Replace with the right image */
 }
 
 .content {
